@@ -1,0 +1,26 @@
+{
+  "name": "pixelbuffer.js",
+  "authors": [
+    "Nnamdi <codewithnnamdi@proton.me>"
+  ],
+  "description": "A pixelbuffer implemented in JavaScript for the web.",
+  "main": "./lib/pixelbuffer.js",
+  "keywords": [
+    "pixelbuffer",
+    "canvas",
+    "dom",
+    "buffer",
+    "ui",
+    "ux"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
