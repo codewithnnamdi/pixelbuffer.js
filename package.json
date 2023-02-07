@@ -1,10 +1,8 @@
 {
-  "name": "pixelbuffer.js",
-  "version": "0.1.0",
+  "name": "pixelbuffer-dom",
+  "version": "0.0.1",
   "main": "index.js",
-  "author": {
-    "name": "Nnamdi M Okpala"
-  },
+  "author": "Nnamdi M Okpala",
   "keywords": [
     "pixelbuffer",
     "canvas",
@@ -15,5 +13,6 @@
   ],
   "license": "MIT",
   "homepage": "",
-  "private": false
+  "private": false,
+  "repository": "https://github.com/magicmannna/pixelbuffer.js.git"
 }
