@@ -10,7 +10,7 @@ Pixelbuffer.js is available on npm. To install it, run the following command:
 Pixelbuffer.js is designed to be used in the browser, but can also be used in Node.js. To use it in the browser, include the following script tag in your HTML file:
 
 ```html
-    <script src="node_modules/pixelbuffer/dist/pixelbuffer.min.js"></script>
+    <script src="node_modules/pixelbuffer/lib/pixbuffer.js"></script>
 ```
 To use it in Node.js, include the following line at the top of your JavaScript file:
 ```js
