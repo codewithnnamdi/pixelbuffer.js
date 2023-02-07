@@ -8,6 +8,7 @@ Pixelbuffer.js is available on npm. To install it, run the following command:
 ```
 ## Usage
 Pixelbuffer.js is designed to be used in the browser, but can also be used in Node.js. To use it in the browser, include the following script tag in your HTML file:
+
 ```html
     <script src="node_modules/pixelbuffer/dist/pixelbuffer.min.js"></script>
 ```
@@ -17,9 +18,10 @@ var Pixelbuffer = require('pixelbuffer');
 ```
 
 ## Examples
+
 ### Creating a pixel buffer
 To create a pixel buffer, use the `Pixelbuffer` constructor. The constructor takes two arguments: the width and height of the pixel buffer. The following example creates a 100x100 pixel buffer:
-```bash
+```js
     var pixelbuffer = new Pixelbuffer(100, 100);
 ```
 ### Getting and setting pixels
