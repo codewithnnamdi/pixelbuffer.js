@@ -46,3 +46,15 @@ To create a pixel buffer, use the `Pixelbuffer` constructor. The constructor tak
     pixelbuffer.toCanvas(canvas);
 ```
 
+```js
+    PixelBuffer.prototype.fromCanvas = function (canvas) {
+      var ctx = canvas.getContext('2d');
+      var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      this.setImageData(imageData);
+    }
+
+    PixelBuffer.prototype.toCanvas = function (canvas) {
+      var ctx = canvas.getContext('2d');
+      ctx.putImageData(this.getImageData(), 0, 0);
+    }
+```
