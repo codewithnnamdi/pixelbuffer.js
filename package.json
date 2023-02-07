@@ -1,6 +1,6 @@
 {
-  "name": "pixelbuffer.js",
-  "version": ".1.0",
+  "name": "pixelbuffer",
+  "version": "0.1.0",
   "main": "index.js",
   "author": {
     "name": "Nnamdi M Okpala"
